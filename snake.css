@@ -1,10 +1,39 @@
-body {
-    background-color:white;
+.container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: darkslategray;
 }
-h1 {
-    position: absolute;
-    left: 40%;
+
+#score{
+    color: white;
 }
-#zone{
-    background-color: darkslategrey;
+
+.zone{
+    width: 90vmin;
+    height: 80vmin;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    background-color: black;
+}
+.head{
+    background-image: url(head.png);
+    justify-content: center;
+    border: 1px solid black;
+    background-size: 100% 100%;
+}
+.bodySnake{
+    background: rgb(84, 227, 48);
+    justify-content: center;
+    border: 1px solid black;
+}
+.pomme{
+    background-image: url(pomme.png);
+    justify-content: center;
+    border: 1px solid black;
+    background-size: 100% 100%;
 }
