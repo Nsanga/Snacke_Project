@@ -1,0 +1,11 @@
+{
+  "name": "predictfoot",
+  "version": "1.0",
+  "description": "predict football with machinelearning",
+  "main": "app.js",
+  "author": "nteguemroland",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
